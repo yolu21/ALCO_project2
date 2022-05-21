@@ -6,7 +6,7 @@
   <img src="state.png" width="400">
   
 ## Documentation 
-**1.Initial state as "000" and "SN"**
+**1. Initial state as "000" and "SN"**
 
     string s;
     int n = 0;
@@ -14,16 +14,16 @@
     string st = "000";
     string state[8] = { "SN ","SN " ,"SN ","SN " ,"SN " ,"SN " ,"SN " ,"SN " };
           
-**2.Print and input the task**
+**2. Print and input the task**
 
     cout << "Please input actual outcome: ";
 	  cin >> s;
       
-**3.Using character 'T' or 'N' to predict (means taken or not taken)**
+**3. Using character 'T' or 'N' to predict (means taken or not taken)**
 
     if (s[i] == 'T')
     
-**4.According to above State diagram to change state**
+**4. According to above State diagram to change state**
 
    - `binToten` is a function that can help change string `st` from binary to decimal, and return integer
    - Below code is processed if actual outcome is "T"
@@ -65,9 +65,9 @@
   - Using actual outcome is "T" as an example
   - "N" change char `a` to '0'
   
-     char a = '1';
-		 st.erase(0, 1);
-		 st.push_back(a);
+         char a = '1';
+	     st.erase(0, 1);
+	     st.push_back(a);
      
 ## Technique used
   - C++ -> programming language
