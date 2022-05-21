@@ -74,6 +74,6 @@
   - Visual Stidio -> devolopment environment
 
 ## Sample Output Screenshot
-<img src="input.png" width="400">
+<img src="in.png" width="400">
 <img src="output1.png" width="400">
 <img src="output2.png" width="400">
