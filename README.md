@@ -71,7 +71,7 @@
      
 ## Technique used
   - C++ -> programming language
-  - Visual Stidio -> devolopment environment
+  - Visual Studio -> devolopment environment
 
 ## Sample Output Screenshot
 <img src="in.png" width="400">
